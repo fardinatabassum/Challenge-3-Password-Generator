@@ -1,14 +1,17 @@
+// variables for charcaters used in password
 var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""); // "ABC" => ["A", "B", "C"]
 var lower = "abcdefghijklmnopqrstuvwxyz".split("");
 var numeric = "1234567890".split("");
 var symbols = "!@#$%^&*()".split("");
 
+// arrays and variables for concatanated password
 var characterArray = [];
 var answer = "";
 
+// conditional statements and for loops for prompts
 function generatePassword() {
   var passwordLength = prompt(
-    "How long do you want your password to be?\n8-128"
+    "How long do you want your password to be?\n choose between 8-128 characters"
   );
   console.log("Password Length: " + passwordLength);
   if (passwordLength < 8 || passwordLength > 128) {
@@ -28,14 +31,14 @@ function generatePassword() {
       characterArray = characterArray.concat(symbols);
     }
     if (characterArray.length == 0) {
-      window.alert("Select at least 1 character type to create password");
+      window.alert("Select at least 1 character type to create password!");
       generatePassword();
     } else {
       for (let i = 0; i < passwordLength; i++) {
-        let rando = Math.floor(Math.random() * characterArray.length);
+        let rando = Math.floor(Math.random() * characterArray.length); // selects characters randomly
         answer += characterArray[rando];
       }
-      return answer;
+      return answer; //returns password in text box
     }
   }
 }
