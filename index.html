@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
+    <!-- Link to the css style sheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- Div with class "wrapper" -->
     <div class="wrapper">
+      <!-- Header -->
       <header>
         <h1>Password Generator</h1>
       </header>
+      <!-- Div with class "card" -->
       <div class="card">
+        <!-- Div with class "card-header" -->
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <!-- Div with class "card-body" -->
         <div class="card-body">
+          <!-- text box with id attribute "password" -->
           <textarea
             readonly
-            id="password"
+            id="password" 
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
         </div>
         <div class="card-footer">
+          <!-- Button Section -->
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
+    <!-- Script tag linking to the Javascript file -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
