@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the code used to make a basic password generator. The purpose of this webpage is to allow users to make randomized unique password while including the different criterias required by other webpages and applications in order to create a more secure password. This generator allows users to include uppercase, lowercase, numerics and even symbols as charcaters for the password. The generator limits the character count for the password between 8 to 128.This website generator hopes to help users create a secure password for them eliminating the process oof coming up with the password themselves
+This repository contains the code used to make a basic password generator. The purpose of this webpage is to allow users to make randomized unique passwords while including the different criterias required by other webpages and applications in order to create a more secure password. This generator allows users to include uppercase, lowercase, numerics and even symbols as charcaters for the password. The generator limits the character count for the password between 8 to 128.This website generator hopes to help users create a secure password for them eliminating the process oof coming up with the password themselves
 
 ## Installation
 
@@ -10,7 +10,7 @@ Use the URL: https://fardinatabassum.github.io/Challenge-3-Password-Generator/
 
 ## Usage
 
-The assets file contains the css used to style the password generator as well as the javascript used to provide its functionality. The images folder contains a screenshot of whatthe final webpage looks like.
+The assets file contains the css used to style the password generator as well as the javascript used to provide its functionality. The images folder contains a screenshot of what the final webpage looks like.
 
 ![Challenge-3-Password-Generator](./assets/images%20/screenshot-password-generator%20webpage.png) 
 
