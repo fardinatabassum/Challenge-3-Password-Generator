@@ -12,6 +12,8 @@ Use the URL: https://fardinatabassum.github.io/Challenge-3-Password-Generator/
 
 The assets file contains the css used to style the password generator as well as the javascript used to provide its functionality. The images folder contains a screenshot of whatthe final webpage looks like.
 
+![Challenge-3-Password-Generator](./assets/images%20/screenshot-password-generator%20webpage.png) 
+
 Opening the index.html will direct the users to the password generator webpage. Users can interact with the webpage by clicking on the generate password button. Clicking on the button will prompt a window to the users to input different criteria requirments such as character length, uppercase,lowercase, numerics and symbols to create the password. Users must select "ok" to at least one criteria otherwise the password will not be geenrated. After answering all the prompts the user will be displayed the randomized password in the text box. 
 
 ## License
