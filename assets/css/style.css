@@ -1,3 +1,4 @@
+/* Universal selector */
 *,
 *::before,
 *::after {
@@ -12,9 +13,10 @@ body,
   padding: 0;
 }
 
+/* Element selectors*/
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lightgrey
 }
 
 .wrapper {
@@ -27,9 +29,10 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: black (206, 17%, 28%);
 }
 
+/* class selectors */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -72,6 +75,7 @@ header {
   clear: both;
 }
 
+/* styling for button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +100,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* ID selector */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +122,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* responsive design */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
