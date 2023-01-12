@@ -1,8 +1,8 @@
-// variables for charcaters used in password
+// variables for characters used in password
 var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""); // "ABC" => ["A", "B", "C"]
 var lower = "abcdefghijklmnopqrstuvwxyz".split("");
 var numeric = "1234567890".split("");
-var symbols = "!@#$%^&*()".split("");
+var symbols = "!@#$%^&*() ~}|{`_[],./?<>;:=+".split("");
 
 // arrays and variables for concatanated password
 var characterArray = [];
